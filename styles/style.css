@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .content {
     max-width: 1600px;
     margin: 0 auto;
@@ -26,23 +28,32 @@ main section{
 }
 body {
     background-color: #fcfbfb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {
+    margin: 0;
+}
+
 header {
     background-color:rgba(20,30,13, .7);
 }
 nav a:hover {
     background-color: black;
 }
-.book {
+.book, .join{
     background-color: #165214;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.join {
-    background-color: #165214;
-    color: white;
-    text-decoration: none;
-}
+
 .book:hover {
     background-color: black;
     color: pink;
@@ -53,12 +64,16 @@ nav a:hover {
 }
 .msg {
     background-color: black;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #d4cbb3;
 }
 .msg p {
     color: #d4cbb3;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 a:hover {
     color: #d4cbb3;
@@ -70,6 +85,39 @@ footer a {
 }
 footer{
     background-color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+.home-title {
+    color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+.icon {
+    padding-top: 15px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card {
+    margin:200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
 .home-title {
     color: cadetblue;
