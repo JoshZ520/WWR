@@ -42,7 +42,7 @@ header {
     background-color:rgba(20,30,13, .7);
 }
 nav a:hover {
-    background-color: black;
+    background-color: rgb(76, 151, 236);
 }
 .book, .join{
     background-color: #165214;
