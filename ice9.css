@@ -2,6 +2,7 @@
 
 * {
     display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 header {
@@ -10,4 +11,5 @@ header {
 
 img {
     width: fit-content;
+    grid-column: 1/3;
 }
