@@ -1,0 +1,13 @@
+
+
+* {
+    display: grid;
+}
+
+header {
+    width: 1000px;
+}
+
+img {
+    width: fit-content;
+}
