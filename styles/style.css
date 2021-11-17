@@ -195,6 +195,11 @@ main section img {
     box-sizing: border-box;
 }
 
+.dates-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
