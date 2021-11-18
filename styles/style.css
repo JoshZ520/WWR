@@ -200,6 +200,9 @@ main section img {
     grid-template-columns: 1fr 1fr;
 }
 
+.river1-card {
+    grid-column: 2/5;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
